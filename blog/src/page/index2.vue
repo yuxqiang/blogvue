@@ -18,10 +18,31 @@
 
 <script>
 export default {
-  name: 'index2'
+  name: 'index2',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App11111111',
+      inputTxt: '',
+      paras: {
+        body: { 
+          pageIndex: 1,
+          pageSize: 10
+        }
+      }
+    }
+  },
+ 
+  created () {
+    // headers: {'X-Requested-With': 'XMLHttpRequest'},
+    this.$axios.post('/admin/getList', this.paras).then(res => {
+      console.log(res, res.data.lists);
+      this.inputTxt = res.data.data.lists[0].adminId;
+    })
+    console.log();
+  }
 }
 </script>
-
+ 
 <style>
 
 </style>
