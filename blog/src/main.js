@@ -8,7 +8,7 @@ Vue.prototype.$axios = axios;
 import QS from 'qs'
 Vue.prototype.$qs = QS;
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://localhost:8088/blog';   //配置接口地址
+axios.defaults.baseURL = 'http://localhost:8080/blog';   //配置接口地址
 
 /* eslint-disable no-new */
 new Vue({

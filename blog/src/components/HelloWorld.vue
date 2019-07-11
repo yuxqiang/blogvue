@@ -47,7 +47,9 @@
     </ul>
     <router-link to="/index">tiaozhuan</router-link>
 
-   <router-link to="/index2">tiaozhuan2</router-link>
+    <router-link to="/index2">tiaozhuan2</router-link>
+
+     <router-link to="/default">新的页面</router-link>
 
     <h2>Ecosystem</h2>
     <ul>

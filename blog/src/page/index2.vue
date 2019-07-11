@@ -13,6 +13,8 @@
 <br/>
  <P><router-link to="/">主页</router-link>
 </P>
+<br/>
+<router-link to="/default">新的页面</router-link>
   </div>
 </template>
 
