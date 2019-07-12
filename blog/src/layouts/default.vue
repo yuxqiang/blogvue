@@ -33,7 +33,7 @@
         </div>
         </header>
         <nuxt/>
-      <footer>
+      <footer>；
         <div class="footer"> 
         <div class="wrapper"> 
             <div class="footer-bottom"> 
