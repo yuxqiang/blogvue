@@ -9,7 +9,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/default',
       name: 'HelloWorld',
       component: HelloWorld
     },
@@ -24,7 +24,7 @@ export default new Router({
       component: Index2
     },
     {
-      path: '/default',
+      path: '/',
       name: 'layout',
       component: layout
     }

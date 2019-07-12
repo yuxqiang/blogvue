@@ -2,12 +2,15 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <router-view/>
+    <!-- <defaults /> -->
   </div>
 </template>
 
 <script>
+// import defaults from '@/layouts/default'
 export default {
   name: 'App'
+  // components: { defaults }
 }
 </script>
 
