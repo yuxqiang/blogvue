@@ -60,10 +60,10 @@
                 常用链接
             </dt> 
             <dd>
-                传智播客
+                qaqa
             </dd> 
             <dd>
-                传智论坛
+                qa论坛
             </dd> 
             </dl> 
             <dl> 
@@ -94,10 +94,10 @@
             <div class="xuke"> 
             <h3>内容许可</h3> 
             <p>除特别说明外，用户内容均采用知识共享署名-非商业性使用-禁止演绎4.0 国际许可协议 (CC BY-NC-ND 4.0) 进行许可</p> 
-            <p>本站由 传智研究院 提供更新服务</p> 
+            <p>本站由 XXX 提供更新服务</p> 
             </div> 
             </div> 
-            <p class="Copyright">Copyright &copy; 2017 传智问答社区 当前版本 0.0.1</p> 
+            <p class="Copyright">Copyright &copy; 2019 XXX问答社区 当前版本 0.0.1</p> 
             </div> 
         </div> 
         </div> 

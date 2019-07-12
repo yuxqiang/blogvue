@@ -1,6 +1,7 @@
 <template>
     <div>
         index html
+        <img src="static/logo.png" alt="">
         <br/>
         <li>
         <input type="text" v-model="inputTxt">
